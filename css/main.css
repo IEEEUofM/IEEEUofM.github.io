@@ -1,0 +1,152 @@
+﻿
+/* RESIZES P TEXT IN DIVIDER */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+        }
+
+/* SCORECARD DATA */
+
+.data_container {
+                    position: relative;
+                    color: white;
+                    font-size: 18px;
+                    font-weight: 700;
+                    /* float: left; */
+                }
+
+.data_centered {
+                position: absolute;
+                text-align: center;
+                top: 30px;
+                width: 100%;
+                /* left: 16px; */
+               }
+
+.umBlue {
+    color: #003087;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: "Roboto", serif;
+}
+
+/*OVERLOAD ON BOOSTRAP 4 TO DISPLAY THE GRAY BAR DOWN THE SIDE*/ 
+blockquote {
+            border-left: 4px solid #ccc;
+            margin: 1.5em 10px;
+            padding: 0.5em 20px;
+            quotes: "\201C""\201D""\2018""\2019";
+            }
+
+blockquote:before {
+                    color: #ccc;
+                    font-size: 4em;
+                    line-height: 0.1em;
+                    margin-right: 0.25em;
+                    vertical-align: -0.4em;
+                  }
+
+
+.carousel-content {
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+#text-carousel {
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}
+
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+    /* On mouse-over, add a deeper shadow */
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+/*Rounds all corners of the card*/
+.round-card {
+    border-radius: 20px;
+}
+
+/*Rounds just the top left and top right*/
+.round-card-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+
+.main-text {
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-clear {
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+
+    .btn-clear:hover {
+        color: #000;
+        background-color: #FFF;
+    }
+
+
+ /*Adds spacing to left and right of the entire deck on desktop*/
+@media screen and (min-width: 800px) {
+    .card-size {
+        
+        margin-left:50px;
+        margin-right:50px;
+    }
+}
+
+/*shortens the gap between cards on desktop*/
+@media screen and (min-width: 800px) {
+    /* narrower card deck */
+    .card-deck {
+        margin-right: -5px;
+        margin-left: -5px;
+    }
+
+        .card-deck .card {
+            margin-right: 1px;
+            margin-left: 1px;
+        }
+}
+
+.jumbo-profile {
+    padding-top: 80px;
+    padding-bottom: 80px
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+
