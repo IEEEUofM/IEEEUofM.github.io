@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-family: "Roboto", serif;
 }
 
-/*OVERLOAD ON BOOSTRAP 4 TO DISPLAY THE GRAY BAR DOWN THE SIDE*/ 
+/*OVERLOAD ON BOOSTRAP 4 TO DISPLAY THE GRAY BAR DOWN THE SIDE*/
 blockquote {
             border-left: 4px solid #ccc;
             margin: 1.5em 10px;
@@ -85,6 +85,15 @@ blockquote:before {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+
+.small-logo{
+  display: block;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
 /* Add some padding inside the card container */
 .container {
     padding: 2px 16px;
@@ -119,7 +128,7 @@ blockquote:before {
  /*Adds spacing to left and right of the entire deck on desktop*/
 @media screen and (min-width: 800px) {
     .card-size {
-        
+
         margin-left:50px;
         margin-right:50px;
     }
@@ -148,5 +157,3 @@ blockquote:before {
     display: flex;
     flex: 1 1 auto;
 }
-
-
